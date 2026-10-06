@@ -1,0 +1,18 @@
+{
+  "desktop": "1440 x 1650",
+  "mobile": "390 x 844",
+  "demo_metrics": [
+    " 5 ",
+    " 4 ",
+    " 0 ",
+    " 1 ",
+    " 68.8% ",
+    " 90.1% ",
+    " 0.21 ",
+    " 48.0% "
+  ],
+  "upload_and_scan": true,
+  "csv_download_click": true,
+  "mobile_document_overflow": false,
+  "browser_errors": []
+}

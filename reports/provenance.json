@@ -1,0 +1,7 @@
+{
+  "dataset_repository": "https://github.com/aleksandar-aleksandrov/groceries-object-detection-dataset",
+  "dataset_commit": "456a9cbbdfdb1695d0050a0d9431a6298604bc15",
+  "model_onnx_sha256": "48faa334c6041d04e9f588743c929def5c43fd16221713213942baa56927e962",
+  "dataset_selection_seed": 42,
+  "pretrained_weights": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt"
+}

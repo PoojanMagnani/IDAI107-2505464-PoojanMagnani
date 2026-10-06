@@ -1,0 +1,94 @@
+{
+  "variant": "original",
+  "images": 75,
+  "precision": 0.6875,
+  "recall": 0.9005847953216374,
+  "f1": 0.779746835443038,
+  "count_mae": 0.20533333333333334,
+  "exact_count_rate": 0.48,
+  "per_class": [
+    {
+      "category": "cereal",
+      "precision": 0.6774193548387096,
+      "recall": 0.9130434782608695,
+      "tp": 21,
+      "fp": 10,
+      "fn": 2,
+      "count_mae": 0.16
+    },
+    {
+      "category": "coffee",
+      "precision": 0.5849056603773585,
+      "recall": 0.9393939393939394,
+      "tp": 31,
+      "fp": 22,
+      "fn": 2,
+      "count_mae": 0.29333333333333333
+    },
+    {
+      "category": "juice",
+      "precision": 0.6792452830188679,
+      "recall": 0.8,
+      "tp": 36,
+      "fp": 17,
+      "fn": 9,
+      "count_mae": 0.29333333333333333
+    },
+    {
+      "category": "milk",
+      "precision": 0.7608695652173914,
+      "recall": 0.9459459459459459,
+      "tp": 35,
+      "fp": 11,
+      "fn": 2,
+      "count_mae": 0.14666666666666667
+    },
+    {
+      "category": "water",
+      "precision": 0.7560975609756098,
+      "recall": 0.9393939393939394,
+      "tp": 31,
+      "fp": 10,
+      "fn": 2,
+      "count_mae": 0.13333333333333333
+    }
+  ],
+  "stress_tests": [
+    {
+      "variant": "low_light",
+      "images": 75,
+      "precision": 0.6517857142857143,
+      "recall": 0.8538011695906432,
+      "f1": 0.739240506329114,
+      "count_mae": 0.25333333333333335,
+      "exact_count_rate": 0.4
+    },
+    {
+      "variant": "horizontal_flip",
+      "images": 75,
+      "precision": 0.6888888888888889,
+      "recall": 0.9064327485380117,
+      "f1": 0.7828282828282829,
+      "count_mae": 0.208,
+      "exact_count_rate": 0.4533333333333333
+    },
+    {
+      "variant": "cluttered_subset",
+      "images": 22,
+      "precision": 0.7835051546391752,
+      "recall": 0.8636363636363636,
+      "f1": 0.8216216216216216,
+      "count_mae": 0.24545454545454545,
+      "exact_count_rate": 0.36363636363636365
+    }
+  ],
+  "protocol": {
+    "split": "test",
+    "confidence": 0.25,
+    "nms_iou": 0.45,
+    "match_iou": 0.5,
+    "tiled": false,
+    "count_mae": "Mean absolute count error across all five categories and test images",
+    "selection": "Test results measured after selecting the best model on validation."
+  }
+}
