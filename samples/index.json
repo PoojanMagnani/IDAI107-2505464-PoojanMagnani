@@ -1,0 +1,61 @@
+[
+  {
+    "file": "MILK0145.png",
+    "title": "Milk shelf",
+    "description": "Real shelf photograph from the evaluation dataset. Attribution is included in Model & evidence.",
+    "source_images": [
+      "MILK0145.png"
+    ]
+  },
+  {
+    "file": "mixed_grocery_demo.png",
+    "title": "Mixed grocery display \u00b7 photo collage",
+    "description": "Four real test photographs arranged as a demonstration collage. This is not a continuous shelf photograph and is not used for benchmark metrics.",
+    "source_images": [
+      "CEREAL0007.png",
+      "COFFEE0042.png",
+      "JUICE0091.png",
+      "MILK0075.png"
+    ]
+  },
+  {
+    "file": "CEREAL0007.png",
+    "title": "Cereal shelf",
+    "description": "Real shelf photograph from the evaluation dataset. Attribution is included in Model & evidence.",
+    "source_images": [
+      "CEREAL0007.png"
+    ]
+  },
+  {
+    "file": "COFFEE0042.png",
+    "title": "Coffee shelf",
+    "description": "Real shelf photograph from the evaluation dataset. Attribution is included in Model & evidence.",
+    "source_images": [
+      "COFFEE0042.png"
+    ]
+  },
+  {
+    "file": "JUICE0091.png",
+    "title": "Juice cartons",
+    "description": "Real shelf photograph from the evaluation dataset. Attribution is included in Model & evidence.",
+    "source_images": [
+      "JUICE0091.png"
+    ]
+  },
+  {
+    "file": "WATER0094.png",
+    "title": "Bottled water",
+    "description": "Real shelf photograph from the evaluation dataset. Attribution is included in Model & evidence.",
+    "source_images": [
+      "WATER0094.png"
+    ]
+  },
+  {
+    "file": "JUICE0031.png",
+    "title": "Challenging wide shelf",
+    "description": "Real shelf photograph from the evaluation dataset. Attribution is included in Model & evidence.",
+    "source_images": [
+      "JUICE0031.png"
+    ]
+  }
+]
