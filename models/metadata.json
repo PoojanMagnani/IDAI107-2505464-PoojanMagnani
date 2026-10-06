@@ -1,0 +1,20 @@
+{
+  "architecture": "YOLO11n",
+  "classes": [
+    "cereal",
+    "coffee",
+    "juice",
+    "milk",
+    "water"
+  ],
+  "input_size": 224,
+  "training_epochs": 30,
+  "batch_size": 16,
+  "seed": 42,
+  "initialization": "Ultralytics YOLO11n COCO pretrained weights",
+  "dataset": "500-image five-category Freiburg grocery detection subset",
+  "confidence_default": 0.25,
+  "iou_default": 0.45,
+  "selection": "Best validation mAP; test set not used for model selection",
+  "sha256": "48faa334c6041d04e9f588743c929def5c43fd16221713213942baa56927e962"
+}
