@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "images": 500,
+  "counts": {
+    "train": {
+      "cereal": 70,
+      "coffee": 70,
+      "juice": 70,
+      "milk": 70,
+      "water": 70
+    },
+    "val": {
+      "cereal": 15,
+      "coffee": 15,
+      "juice": 15,
+      "milk": 15,
+      "water": 15
+    },
+    "test": {
+      "cereal": 15,
+      "coffee": 15,
+      "juice": 15,
+      "milk": 15,
+      "water": 15
+    }
+  },
+  "exact_pixel_duplicates_removed": true
+}
