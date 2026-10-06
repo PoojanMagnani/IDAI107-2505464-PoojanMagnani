@@ -1,0 +1,7 @@
+-r requirements.txt
+ultralytics==8.3.203
+torch==2.8.0
+torchvision==0.23.0
+onnx==1.19.0
+PyYAML==6.0.3
+pytest==8.4.2
